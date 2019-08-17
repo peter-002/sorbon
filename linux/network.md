@@ -8,7 +8,7 @@
 
 > [host](https://man.linuxde.net/host)
 
-`
+```
 	host [选项] domain
 	
 	选项列表
@@ -22,7 +22,7 @@
 		-W<时间>：指定域名查询的最长时间，如果在指定时间内域名服务器没有给出应答信息，则退出指令；
 		-4：使用IPv4；
 		-6：使用IPv6.
-`
+```
 
 > [telnet](https://www.cnblogs.com/peida/archive/2013/03/13/2956992.html)
 
