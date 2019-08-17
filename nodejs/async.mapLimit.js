@@ -14,16 +14,15 @@ const async      = require("async");
 let currentCount = 0,
     urls         = [];
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++)
     urls.push('http://www.example.com/' + i + ".html");
-}
 
 async.mapLimit(urls, 5, function (url, callback) {
     let delay = parseInt(500);
     currentCount++;
     console.log("currentCount is :" + currentCount + ",current url is :" + url + ",use time is :" + delay + " mm");
 
-    // 设置定时，好看效果
+    // 设置定时，方便查看效果
     setTimeout(function () {
         currentCount--;
         callback(null, url + ' html content ');
