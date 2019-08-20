@@ -29,6 +29,7 @@
  * pm2 start app.json                                   启动进程, 在 app.json里设置选项
  * pm2 start app.js -i max -- -a 23                     在--之后给 app.js 传递参数
  * pm2 start app.js -i max -e err.log -o out.log        启动 并 生成一个配置文件
+ * pm2 scale <app_name> +1                              即时调整集群
  *
  *
  *配置pm2启动文件
