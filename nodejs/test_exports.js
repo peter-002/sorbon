@@ -35,7 +35,7 @@ console.log(b);             // { name: 2 }
 
 var b = {name: 3};
 console.log(a);             // {name: 2 }
-console.log(b);             // {name: 2 }
+console.log(b);             // {name: 3 }
 
 /**
  * a 是一个对象，b 是对 a 的引用，即 a 和 b 指向同一块内存，所以前两个输出一样。
