@@ -2,6 +2,6 @@
   "name": "nodejs",
   "version": "1.0.0",
   "dependencies": {
-    "async": "^3.1.0"
+    "async": "^3.2.2"
   }
 }
